@@ -1,9 +1,6 @@
 CREATE DATABASE uas;
 USE uas;
 
-CREATE DATABASE praktikuas;
-USE praktikuas;
-
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) UNIQUE,
